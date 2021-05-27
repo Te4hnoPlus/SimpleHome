@@ -1,0 +1,13 @@
+name: Te4hno_Simplehome
+main: plus.Main
+version: "1.0"
+author: Te4hnoPlus
+description: "Home by Te4hnoPlus"
+
+commands:
+    sethome:
+        description: Set point home.
+    delhome:
+        description: Del point home.
+    home:
+        description: Tp to point home.

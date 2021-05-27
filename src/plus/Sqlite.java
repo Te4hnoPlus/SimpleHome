@@ -20,7 +20,7 @@ public class Sqlite {
 		   
 		   conn = DriverManager.getConnection("jdbc:sqlite:data.s3db");
 		   statmt = conn.createStatement();
-		   System.out.println("База данных подключена");
+		   System.out.println("ГЃГ Г§Г  Г¤Г Г­Г­Г»Гµ ГЇГ®Г¤ГЄГ«ГѕГ·ГҐГ­Г ");
 	}
 	
 	public static void CreateDB() throws ClassNotFoundException, SQLException {
@@ -58,13 +58,5 @@ public class Sqlite {
 		
 		return loc;
 		
-	}
-
-	public static void CloseDB() throws ClassNotFoundException, SQLException{
-		conn.close();
-		statmt.close();
-		resSet.close();
-			
-		System.out.println("База данных выключена");
 	}
 }

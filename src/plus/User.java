@@ -4,7 +4,6 @@ import java.sql.SQLException;
 
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
-//import org.bukkit.entity.Player;
 
 public class User {
 	private Player player;
@@ -45,8 +44,8 @@ public class User {
 		} catch (SQLException e) {
 			hashome = false;
 		}
-		
 	}
+	
 	public void saveData() {
 		try {
 			if(hashome) {
@@ -59,5 +58,4 @@ public class User {
 		}
 		
 	}
-
 }
